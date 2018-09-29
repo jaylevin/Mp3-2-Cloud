@@ -15,7 +15,7 @@ A single endpoint REST server written in Go that demonstrates basic mp3 file upl
 
 6) Open up a new terminal window and navigate to the project's root directory, leave the server running.
 
-7) Execute `go test -mp3Path="/Users/Desktop/Admin/file.mp3"`, where the mp3Path argument is an actual path to an mp3 file on your local machine. This
+7) Execute `go test -mp3Path="/Users/Desktop/Admin/file.mp3"`, where the mp3Path argument is an actual path to an mp3 file on your local machine.
 
 8) This will perform a PUT request to http://localhost:8080/upload, which should handle the upload process.
 
