@@ -32,4 +32,4 @@ The JSON response will always be in the form
   "success": bool
 }
 ```
-If `{"success":true}` the upload was successful.
+If `{"success":true}`, the upload was successful.
