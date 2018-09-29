@@ -8,7 +8,7 @@ import (
 	"github.com/minio/minio-go"
 
 	/* Internal */
-	"github.com/jaylevin/Mp32Cloud/config"
+	"github.com/jaylevin/Mp3-2-Cloud/config"
 )
 
 type MinioClient struct {

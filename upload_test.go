@@ -15,7 +15,7 @@ import (
 	"github.com/minio/minio-go"
 
 	/* Internal */
-	"github.com/jaylevin/Mp32Cloud/storage"
+	"github.com/jaylevin/Mp3-2-Cloud/storage"
 )
 
 /* The absolute path to the mp3 file to upload. */

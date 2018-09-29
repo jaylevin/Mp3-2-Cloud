@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/jaylevin/Mp32Cloud/config"
+	"github.com/jaylevin/Mp3-2-Cloud/config"
 	"os"
 	"encoding/json"
 	"bytes"
@@ -17,7 +17,7 @@ var conf *config.Config
 func main() {
 	if _, err := os.Stat("./config.json"); os.IsNotExist(err) {
 		log.Println("Could not find config file Generating a new one for you...")
-		err := config.New()
+		err := config.Generate()
 		if err != nil {
 			log.Fatal("Error generating config file:", err.Error())
 		}

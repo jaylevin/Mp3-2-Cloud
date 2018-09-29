@@ -7,7 +7,7 @@ import (
 	"bytes"
 
 	/* Internal */
-	"github.com/jaylevin/Mp32Cloud/storage"
+	"github.com/jaylevin/Mp3-2-Cloud/storage"
 )
 
 type Mp3UploadRequest struct {
