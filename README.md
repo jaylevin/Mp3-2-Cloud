@@ -3,6 +3,7 @@ A single endpoint REST server written in Go that demonstrates basic mp3 file upl
 
 # Setup Guide
 1) Clone the repository
+`git clone https://github.com/jaylevin/Mp3-2-Cloud`
 
 2) Execute `make` in the project root directory. You may need to `go get ...` some external dependencies.
 
