@@ -26,7 +26,7 @@ A single endpoint REST server written in Go that demonstrates basic mp3 file upl
 
 * Endpoint: http://localhost:8080/upload
 
-* Request body is expected to a be JSON object of the form
+* Request body is expected to be a JSON object of the form
 ```
 {
   "mp3Name": "file.mp3",
