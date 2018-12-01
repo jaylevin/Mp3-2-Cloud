@@ -7,10 +7,10 @@ import (
 )
 
 type Config struct {
-	AccessKey  string  // from digital oceans control panel
-	SecretKey  string  // from digital oceans control panel
+	AccessKey  string  // from digitalocean's control panel
+	SecretKey  string  // from digitalocean's control panel
 	Endpoint   string  // nyc3.digitaloceanspaces.com
-	BucketName string  // the name of the digital ocean's space (on digital oceans control panel)
+	BucketName string  // the name of the digitalocean's space
 }
 
 func DefaultConfig() *Config {
