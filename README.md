@@ -11,7 +11,7 @@ A single endpoint REST server written in Go that demonstrates basic mp3 file upl
 
 4) A configuration file named `config.json` should've been generated. Open it and modify the appropriate fields with your DigitalOcean's access key, secret key, and endpoint.
 
-5) Restart the server by executing the binary file named `mp32cloud`. You should be informed that your configuration file has been loaded with the changes that you made in step 4.
+5) Restart the server by executing the binary file named `mp32cloud` one again. You should be informed that your configuration file has been loaded with the changes that you made in step 4.
 
 6) Open up a new terminal window and navigate to the project's root directory, leave the server running.
 
@@ -19,6 +19,7 @@ A single endpoint REST server written in Go that demonstrates basic mp3 file upl
 
 8) This will perform a PUT request to http://localhost:8080/upload, which should handle the upload process.
 
+9) Of course, you can inspect the upload_test.go file for an example of reading and uploading the raw file bytes to a DigitalOcean's Space.
 
 
 # Upload Endpoint Documentation
