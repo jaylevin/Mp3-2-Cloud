@@ -66,8 +66,8 @@ func TestUploadTrack(t *testing.T) {
 		return
 	}
 
-	/* Make the HTTP PUT Request to TMN-API */
-	printMagenta("Sending mp3 file bytes to cloud server...")
+	/* Make the HTTP PUT Request to REST Server */
+	printMagenta("Sending PUT Request to localhost:8080/upload")
 
 	client := &http.Client{}
 	req, err := http.NewRequest("PUT", "http://localhost:8080/upload", bytes.NewReader(b))
